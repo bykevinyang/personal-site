@@ -115,34 +115,6 @@ h3 {
 
 /* Links */
 
-/* Highlight Color */
-highlight {
-    color: $highlight-color;
-    text-decoration: none;
-}
-
-highlight:active,
-highlight:hover {
-    outline: 0;
-}
-
-highlight:hover,
-highlight:focus {
-    color: $link-hover-color;
-    border-bottom: 1px solid $link-hover-line-color;
-}
-
-highlight:active {
-    color: $link-hover-color;
-    opacity: 0.9;
-    border-bottom: 1px solid $link-hover-line-color;
-}
-
-highlight.active {
-    color: $link-hover-color;
-}
-
-/* Normal a*/
 a {
     color: $link-color;
     text-decoration: none;
@@ -155,12 +127,12 @@ a:hover {
 
 a:hover,
 a:focus {
-    color: $link-hover-color;
+    // color: $link-hover-color;
     border-bottom: 1px solid $link-hover-line-color;
 }
 
 a:active {
-    color: $link-hover-color;
+    // color: $link-hover-color;
     opacity: 0.9;
     border-bottom: 1px solid $link-hover-line-color;
 }
@@ -267,7 +239,7 @@ header {
     }
 
     a {
-        color: $heading-color;
+        color: $heading-color!important;
     }
 }
 /* Anchor links */
@@ -335,6 +307,7 @@ article header h1 {
     a {
         color: $a11y-gray;
     }
+
     a:hover {
         color: $link-hover-color;
     }
@@ -358,7 +331,11 @@ article header h1 {
     display: inline;
     list-style-type: none;
     padding: 0;
-
+    
+    a {
+        color: $highlight-color!important;
+    } 
+    
     li {
         display: inline;
         margin-right: 1em;
@@ -374,6 +351,10 @@ article header h1 {
     padding: 0;
     margin: 0;
 
+    a {
+        color: $highlight-color!important;
+    } 
+    
     li {
         display: inline;
         margin-right: 1em;
@@ -463,11 +444,6 @@ figcaption {
         text-decoration: none;
     }
 
-    cat {
-        color: $highlight-color;
-        text-decoration: none;
-    }
-
     a:active,
     a:hover {
         outline: 0;
@@ -475,8 +451,9 @@ figcaption {
 
     a:hover,
     a:focus {
-        color: $link-hover-color;
+        // color: $link-hover-color;
         border-bottom: 1px solid $link-hover-line-color;
+        text-decoration: underline;
     }
 
     a:active {
@@ -496,7 +473,10 @@ figcaption {
     h3 {
         margin-block-start: 0.25em;
         margin-block-end: 0;
+        // color: $text-color!important;
     }
+
+
 }
 
 .footnote-definition {
