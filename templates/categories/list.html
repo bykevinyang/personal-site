@@ -9,9 +9,9 @@
 <ul class="terms">
     {% for term in terms %}
     <li>
-        <a href="{{ term.permalink }}">
+        <cat href="{{ term.permalink }}">
         {{ term.name }}
-        </a>
+        </cat>
         ({{ term.pages | length }})
     </li>
     {% endfor %}

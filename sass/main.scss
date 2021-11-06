@@ -30,6 +30,8 @@ $icon-hover-color: $link-hover-color;
 
 $project-subheading-color: #59C2FF;
 
+$highlight-color: #D2A6FF;
+
 html {
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
     /* 1 */
@@ -113,6 +115,34 @@ h3 {
 
 /* Links */
 
+/* Highlight Color */
+highlight {
+    color: $highlight-color;
+    text-decoration: none;
+}
+
+highlight:active,
+highlight:hover {
+    outline: 0;
+}
+
+highlight:hover,
+highlight:focus {
+    color: $link-hover-color;
+    border-bottom: 1px solid $link-hover-line-color;
+}
+
+highlight:active {
+    color: $link-hover-color;
+    opacity: 0.9;
+    border-bottom: 1px solid $link-hover-line-color;
+}
+
+highlight.active {
+    color: $link-hover-color;
+}
+
+/* Normal a*/
 a {
     color: $link-color;
     text-decoration: none;
@@ -430,6 +460,11 @@ figcaption {
 .post-list {
     a {
         color: $text-color;
+        text-decoration: none;
+    }
+
+    cat {
+        color: $highlight-color;
         text-decoration: none;
     }
 

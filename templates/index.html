@@ -24,7 +24,7 @@
         </section>
         <section class="index-listing">
             <h2>
-                Recent blog posts
+                Recent posts
             </h2>
             {% set section = get_section(path="blog/_index.md") %}
             {% for page in section.pages | slice(end=2) %}

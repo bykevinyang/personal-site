@@ -13,7 +13,7 @@ build_search_index = false
 
 title = "Kevin Yang"
 description = "Home of his Outrageous Ideas and Projects"
-generate_feed = true
+generate_feed = false
 
 taxonomies = [
     {name = "tags", rss = true},
@@ -48,4 +48,6 @@ username = "bykevinyang"
 
 # Footer social links; full options listed in macros/social.html
 [extra.social]
+github = "bykevinyang"
+linkedin = "bykevinyang"
 email = "ky200617@gmail.com"
