@@ -1,4 +1,5 @@
 /* Variables */
+/* Defaults 
 $background-color: #fff;
 $border-color: #c3c3c3;
 
@@ -10,8 +11,25 @@ $link-color: #1d60a3;
 $link-hover-color: #1da388;
 $link-hover-line-color: #007884;
 $icon-hover-color: $link-hover-color;
+*/
 
-/* Basic */
+/* Dark Mode Colors*/
+$background-color: #0D1017;
+$border-color: #131721;
+
+$heading-color: #f3e7d5;
+
+$text-color: #f3e7d5;
+
+$a11y-gray: #F26D78;
+
+$link-color: #FF8F40;
+$link-hover-color: #73B8FF;
+$link-hover-line-color: #59C2FF;
+$icon-hover-color: $link-hover-color;
+
+$project-subheading-color: #59C2FF;
+
 html {
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
     /* 1 */
@@ -193,7 +211,8 @@ header {
     }
 
     h2 {
-        color: $a11y-gray;
+        // color: $a11y-gray;
+        color: $project-subheading-color;
         font-size: 0.8em;
         margin: 0 0 0.8em 0;
         font-weight: normal;
@@ -218,7 +237,7 @@ header {
     }
 
     a {
-        color: #333;
+        color: $heading-color;
     }
 }
 /* Anchor links */
@@ -554,11 +573,10 @@ footer {
 
     header {
         nav {
-            margin-top: 1em;
+            margin-top: .25em;
             max-width: 100%;
             text-align: center;
-            background: #fafafa;
-            padding: 0.5em 0;
+            padding: 0.1em 0;
         }
 
         nav {

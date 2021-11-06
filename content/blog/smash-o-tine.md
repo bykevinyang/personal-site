@@ -3,7 +3,7 @@ title = "Happy Smash-O'-Tine!"
 date = 2021-05-11
 
 [taxonomies]
-tags = ["MechE"] // Add tags to this post
+tags = ["MechE"]
 +++
 
 # Happy Smash-O'-Tine!
