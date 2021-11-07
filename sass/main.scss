@@ -15,7 +15,7 @@ $icon-hover-color: $link-hover-color;
 
 /* Dark Mode Colors*/
 $background-color: #0D1017;
-$border-color: #131721;
+$border-color: #47526640;
 
 $heading-color: #f3e7d5;
 
@@ -153,18 +153,18 @@ table {
 }
 
 thead {
-    background: lightgrey;
+    background: $border-color;
 }
 
 th, td {
     padding: 0.5em 1em;
-    border: 1px double lightgrey;
+    border: 1px double $border-color;
 }
 
 /* Code */
 pre {
     padding: 1em;
-    background-color: #f1f1f1;
+    background-color: $border-color;
     max-width: 100%;
     overflow: auto;
 }
@@ -411,7 +411,7 @@ figcaption {
     display: block;
     height: 1px;
     border: 0;
-    border-top: thin solid #f1f1f1;
+    border-top: thin solid $border-color;
     width: 25%;
     margin: 1em auto;
 }
