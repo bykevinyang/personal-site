@@ -1,3 +1,6 @@
+# Further Configuration Options can be found in the documentation: 
+# https://www.getzola.org/documentation/getting-started/configuration/
+
 # The URL the site will be built for
 base_url = "https://bykevinyang.netlify.app/"
 
@@ -8,6 +11,8 @@ compile_sass = true
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
 
+highlight_theme = "ayu-dark"
+
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
@@ -15,10 +20,13 @@ title = "Kevin Yang"
 description = "Home of his Outrageous Ideas and Projects"
 generate_feed = false
 
-taxonomies = [
+    taxonomies = [
     {name = "tags", rss = true},
     {name = "categories", rss = true},
 ]
+
+external_links_target_blank = true
+smart_punctuation = true
 
 [extra]
 # Development environment. Used by the page macros to load remote content only when in "prod" mode
