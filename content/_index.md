@@ -2,7 +2,7 @@
 render = true
 template = "index.html"
 +++
-```shell
+```bash
 kevin@bykevinyang:~$ ls
     Home
     Projects 
@@ -10,6 +10,6 @@ kevin@bykevinyang:~$ ls
     About 
     hello.txt
 kevin@bykevinyang:~$ cat hello.txt
-Hello There!👋
-Welcome to My Site!
+   Hello There!👋
+   Welcome to My Site!
 ```
