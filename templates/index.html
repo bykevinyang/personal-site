@@ -3,14 +3,18 @@
 
 {% block content %}
 <main id="main" class="index" tabindex="-1">
-    <section>
-        <h1>
+    {% set section = get_section(path="_index.md") %}
+    <section class = landing-text>
+            {{ section.content | safe }}
+        <!-- <h1>
             👋 Hey There!
+            {{ section.title}}
         </h1>
         <p>
             Welcome to my site!
-        </p>
+        </p> -->
     </section>
+
     <section class="index-columns">
         <section class="index-listing">
             <h2>
