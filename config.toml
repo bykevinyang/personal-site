@@ -59,3 +59,8 @@ username = "bykevinyang"
 github = "bykevinyang"
 linkedin = "bykevinyang"
 email = "ky200617@gmail.com"
+
+[slugify]
+paths = "on"
+taxonomies = "on"
+anchors = "on"
