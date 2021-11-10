@@ -62,7 +62,14 @@ A bit of explaining, arguing, and prototyping was necessary to get them on my si
 
 ## Trigger System
 
-With the winch in place, all that needs to be done now 
+With the winch in place, all that needs to be done now is to 
+
+# Takeaways
+
+All in all, Smash-O'-Tine and Pumpkin Smash was a blast! It was so exciting seeing everyone line up in front of the guillotine and watching the Smashing Head consistently smash, pulverize, and obliterate pumpkins was a joy to behold.  
+
+My team and I had to work on an extremely tight timeline, in fact we had just 5 hours of shop time and only 3 weeks to design, prototype, and ship. I remember us staying late into the night one meeting finishing up the structure, as well as conducting our maidan tests an hour before the event. If hackathons were an adeline rush, this gave me a natural 5 hour energy!
+
 <!-- 
 ### Design Principals
 
