@@ -2,8 +2,15 @@
 {% extends "base.html" %}
 
 {% block content %}
-<title>Kevin's Site</title>
-<link rel="shortcut icon" type="image/png" href="https://www.gravatar.com/avatar/c35567f1dbb093d41bf2dc98c1f97603.png"/>
+<head>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
 
 <main id="main" class="index" tabindex="-1">
     {% set section = get_section(path="_index.md") %}
