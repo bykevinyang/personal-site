@@ -3,7 +3,7 @@ title = "More on Skinks"
 date = 2020-01-06
 
 [taxonomies]
-tags = ["other"]
+tags = ["Other"]
 +++
 
 Many species are good burrowers. More species are terrestrial or fossorial (burrowing) than arboreal (tree-climbing) or aquatic species.
