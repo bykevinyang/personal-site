@@ -1,5 +1,5 @@
 +++
-title = "Chloro-kNOw" 
+title = "🌊 Chloro-kNOw" 
 date = 2021-07-10
 
 [taxonomies]
@@ -18,7 +18,7 @@ repo_path = "bykevinyang/chloro-kNOw"
 ---
 
 # About
-Chloro-kNOw is an online dashboard that relates factors that affect chlorophyll (Chl) concentrations in order to draw relationships between COVID-19 and its effects on Chl concentrations. With chloro-kNOw, we aim to raise awareness about daily actions that can lead to increases in algal blooms and mitigate them in order to keep our water clean for the generations to come. Be in the know to tell chloro no! 
+Chloro-kNOw is an online dashboard that relates factors that affect chlorophyll (Chl) concentrations in order to draw relationships between COVID-19 and its effects on Chl concentrations. With chloro-kNOw, we aim to raise awareness about daily actions that can lead to increases in algal blooms and mitigate them in order to keep our water clean for the generations to come. ***Be in the know to tell chloro no!***
 
 # Project Demo
 * Video demo: [Youtube](https://youtu.be/DpcNKZ0--_0)
