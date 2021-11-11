@@ -6,9 +6,9 @@ date = 2021-11-05
 categories = ["MechE"]
 
 [extra]
+featured_image_extended = true
 featured_image = "pumpkin-smash-team-edited.jpg"
 featured_image_alt = "The Smash-O'-Tine Team"
-featured_image_extended = true
 +++
 
 # 🎃 Happy Smash-O'-Tine!

@@ -1,0 +1,15 @@
+<!-- From https://www.getzola.org/documentation/content/image-processing/ -->
+<!-- Set asset variable in meta: -->
+<!-- [extra]
+assets = ["imgpath1", "imgpath2"] -->
+
+<div>
+{% for asset in page.assets -%}
+  {%- if asset is matching("[.](jpg|png)$") -%}
+    {% set image = resize_image(path=asset, width=240, height=180) %}
+    <a href="{{ get_url(path=asset) }}" target="_blank">
+      <img src="{{ image.url }}" />
+    </a>
+  {%- endif %}
+{%- endfor %}
+</div>

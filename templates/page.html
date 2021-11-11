@@ -46,7 +46,7 @@
             {% set resized_featured_image = resize_image(path=image_path, width=config.extra.images.max_width, op="fit_width") %}
         {% else %}
             {# container_width = (pixel size, px) * (.container's max-width) #}
-            {% set container_width = 16 * 42 %}
+            {% set container_width = 16 * 100 %}
             {% set resized_featured_image = resize_image(path=image_path, width=container_width, op="fit_width") %}
         {% endif %}
     <img src="{{ resized_featured_image.url }}" class="{% if page.extra.featured_image_extended %}extended-img{% endif %}" alt="{% if page.extra.featured_image_alt %}{{ page.extra.featured_image_alt }}{% else %}{{ page.title }}{% endif %}"/>
