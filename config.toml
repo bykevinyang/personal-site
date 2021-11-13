@@ -17,7 +17,7 @@ highlight_code = true
 build_search_index = false
 
 title = "Kevin Yang"
-description = "Home of his Outrageous Ideas and Projects"
+description = "I put the KY in EleKtrifY"
 generate_feed = false
 
     taxonomies = [
