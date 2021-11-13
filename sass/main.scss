@@ -393,31 +393,29 @@ article img {
 //     position: absolute;
 //     margin-bottom: 100px;
 // }
-.extended-img {
-    display:block;
-    left: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-    // max-width: 100vw;
-    max-width: 99.37vw;
-    // max-width: vw;
-    position: relative;
-    right: 50%;
-    // width: 80%;
-}
-
 // .extended-img {
 //     display:block;
-//     margin-left: -15vw;
-//     margin-right: -15vw;
-//     right: 50%;
-//     left: 25%;
-//     // max-width: 100vw;
-//     // max-width: 99.37vw;
-//     max-width: 75vw;
-//     position: relative; 
+//     left: 50%;
+//     margin-left: -50vw;
+//     margin-right: -50vw;
 //     width: 100vw;
+//     max-height: 100vw;
+//     position: relative;
+//     right: 50%;
 // }
+
+.extended-img {
+    display:block;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    right: 50%;
+    left: 50%;
+    // max-width: 100vw;
+    // max-width: 99.37vw;
+    max-width: 100vw;
+    position: relative; 
+    width: 100vw;
+}
 
 .extended-figure {
     position: relative;
@@ -431,7 +429,7 @@ figcaption {
     font-size: 0.75em;
     color: $a11y-gray;
     text-align: center;
-}
+}   
 
 .bordered {
     border: 3px solid $background-color;
