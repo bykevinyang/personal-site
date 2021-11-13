@@ -205,6 +205,11 @@ ul ol, ol ol, ul ul {
     margin: 0em 2em;
 }
 
+// Hide horizontal scrollbar
+div {
+    // overflow-x: auto;
+}
+
 /* Header */
 
 header {
@@ -378,15 +383,41 @@ article img {
     margin: 0 auto .5em;
 }
 
+// .extended-img {
+//     max-width: 50%;
+//     display: block;
+//     height: auto;
+//     margin: 0 auto .5em;
+//     right: 20%;
+//     left: 20%;
+//     position: absolute;
+//     margin-bottom: 100px;
+// }
 .extended-img {
+    display:block;
     left: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
-    max-width: 100vw;
+    // max-width: 100vw;
+    max-width: 99.37vw;
+    // max-width: vw;
     position: relative;
     right: 50%;
-    width: 100vw;
+    // width: 80%;
 }
+
+// .extended-img {
+//     display:block;
+//     margin-left: -15vw;
+//     margin-right: -15vw;
+//     right: 50%;
+//     left: 25%;
+//     // max-width: 100vw;
+//     // max-width: 99.37vw;
+//     max-width: 75vw;
+//     position: relative; 
+//     width: 100vw;
+// }
 
 .extended-figure {
     position: relative;
