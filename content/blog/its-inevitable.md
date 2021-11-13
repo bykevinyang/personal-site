@@ -15,7 +15,7 @@ As Thanos once said: ***I am inevitable***
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"align":"center","sizeSlug":"large"} -->
-<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://media2.giphy.com/media/ie76dJeem4xBDcf83e/giphy.gif" alt=""/></figure></div>
+<img src="https://media2.giphy.com/media/ie76dJeem4xBDcf83e/giphy.gif" alt=""/>
 <!-- /wp:image -->
 
 ---
@@ -27,6 +27,8 @@ As Thanos once said: ***I am inevitable***
 <!-- wp:paragraph -->
 <p>To give a little background, in 1994 Peter Shor demonstrated a circuit that was able to use the wacky properties of quantum mechanics in order to prime factorize numbers in exponential time. In essence, Shor did the unthinkable and came up with an algorithm that could crack the protocols pivotal to internet security.&nbsp;</p>
 <!-- /wp:paragraph -->
+
+<img src="https://i.ytimg.com/vi/87t7YcNujlM/maxresdefault.jpg" style="width: 80%; height:auto" alt= "">
 
 <!-- wp:paragraph -->
 <p>When scholars and governments got wind of this, many began questioning the ethics of developing quantum computers. If such technology could upend the world, why should we bring it to light?</p>
