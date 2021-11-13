@@ -1,5 +1,5 @@
 +++
-title = "Project L.L.O.C.U.S.T."
+title = "🦗 Project L.L.O.C.U.S.T."
 date = 2021-03-29
 
 [taxonomies]
