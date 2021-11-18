@@ -10,7 +10,7 @@ categories = ["Hackathon", "Software"]
 
 Project L.L.O.C.U.S.T. is a hackathon project for NASA's 2020 Space Apps Challenge. It won Global Winner as the project with the most potential to improve life on Earth or in the universe. Original submission <a href="https://2020.spaceappschallenge.org/challenges/inform/automated-detection-hazards/teams/project-llocust-1/project">documentation
 
-<p class="has-text-align-center" style="font-size:23px"><strong>-- <a href="https://www.youtube.com/watch?v=RI2gLdX9DAE">Video Demo</a> --</strong></p>
+# <center><strong>--<a href="https://www.youtube.com/watch?v=RI2gLdX9DAE">Video Demo</a> --</strong></center>
 
 # Summary
 
