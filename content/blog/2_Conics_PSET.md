@@ -1,5 +1,5 @@
 +++
-title = "⌛ Conic Section's PSET"
+title = "⌛ Conic Sections"
 date = 2021-10-28
 
 [taxonomies]

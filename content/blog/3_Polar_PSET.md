@@ -1,5 +1,5 @@
 +++
-title = "💈 Polar & Complex Numbers PSET"
+title = "💈 Polar & Complex Numbers"
 date = 2021-11-22
 
 [taxonomies]
