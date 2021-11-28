@@ -3,13 +3,13 @@ render = true
 template = "index.html"
 +++
 ```bash
-kevin@kevin.dino.icu:~$ ls
+kevin@WOPR:~$ ls
     Home
     Projects 
     Blog 
     About 
     hello.txt
-kevin@kevin.dino.icu:~$ cat hello.txt
+kevin@WOPR:~$ cat hello.txt
     "Hello There!👋"
     "Welcome to My Site!"
 ```
