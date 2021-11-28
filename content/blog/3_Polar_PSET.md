@@ -3,7 +3,7 @@ title = "💈 Polar & Complex Numbers PSET"
 date = 2021-11-22
 
 [taxonomies]
-categories = ["#PSET", "#Math"]
+tags = ["PSET", "Math"]
 +++
 
 Third PSET of the year! 

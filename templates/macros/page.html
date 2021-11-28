@@ -9,7 +9,7 @@
             {% if page.taxonomies.categories %}
                 <ul class="article-categories">
                     {% for cat in page.taxonomies.categories %}
-                    <li><a href="{{ get_taxonomy_url(kind="categories", name=cat) | safe }}">{{ cat }}</a></li>
+                    <li><a href="{{ get_taxonomy_url(kind="categories", name=cat) | safe }}">#{{ cat }}</a></li>
                     {% endfor %}
                 </ul>
             {% endif %}
@@ -94,7 +94,7 @@
         ◦
         <ul class="article-categories">
             {% for cat in page.taxonomies.categories %}
-            <li><a href="{{ get_taxonomy_url(kind="categories", name=cat) | safe }}">{{ cat }}</a></li>
+            <li><a href="{{ get_taxonomy_url(kind="categories", name=cat) | safe }}">#{{ cat }}</a></li>
             {% endfor %}
         </ul>
         {% endif %}

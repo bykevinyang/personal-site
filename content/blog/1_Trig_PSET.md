@@ -3,7 +3,7 @@ title = "📐Trigonometry PSET"
 date = 2021-09-27
 
 [taxonomies]
-categories = ["#PSET", "#Math"]
+tags = ["PSET", "Math"]
 +++
 
 First PSET of the year! This one was conceptually demanding, but extremely fun!
