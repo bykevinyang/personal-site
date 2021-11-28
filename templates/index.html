@@ -43,7 +43,7 @@
             {% set section = get_section(path="blog/_index.md") %}
             {% for page in section.pages | slice(end=2) %}
             {{ page_macros::page_listing(page=page) }}
-            {% endfor %}
+            {% endfor %}    
             <p class="read-more"><a href="blog/">more blog posts ≫</a></p>
         </section>
     </section>
