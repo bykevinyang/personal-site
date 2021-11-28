@@ -10,7 +10,8 @@
 
     <div id="projects-page" class="projects-page">
     {% for category, tag in project_categories %}
-        <h1> <a href=""> {{ category }} </a></h1>
+    <!-- To-do: Should try and make <a></a> point to categories/{{ category }}. Currently unable to use get_taxonomy_url()-->
+        <h1> <a> {{ category }} </a></h1> 
         {% for page in section.pages %}
             {% if page.taxonomies.categories is containing(tag) %}
                 {{ page_macros::project_listing(page=page) }}

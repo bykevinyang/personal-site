@@ -4,9 +4,11 @@
 {% block title %}Category: {{ term.name }} - {{ config.title }}{% endblock title%}
 
 {% block content %}
-<h1>Category: {{ term.name }}</h1>
-<div class="article-info">
-    <cat href="{{ get_url(path="/categories") }}">To all categories</cat>
+<div class="category-page">
+    <div class="article-info">
+        <a href="{{ get_url(path="/projects") }}">&lt- Back to Projects</a>
+    </div>
+    <h1>Category: <a> {{ term.name }} </a> </h1>
 </div>
 
 {% for page in term.pages %}
