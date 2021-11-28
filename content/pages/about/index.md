@@ -4,12 +4,7 @@ path = "about"
 template = "about.html"
 +++
 
-# Hey There! 
+<body> <h1> Hey There! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px" style="display:inline; margin:0; padding-top:1px"> </h1> </body>
+
 ## My name’s Kevin. I’m a Boston native interested in everything from EE to robotics, to memes, to quantum computing.
-
-I’m currently working on a radar system for UC Berkeley’s Combat Robotics team, a referee device for Ligerbots, and planning out a robotics conference for Hack For The People.
-
-I’ll see you around ✌Hey there!
-
-I'm Kevin, an engineer from Beantown ☘️.
 

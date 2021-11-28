@@ -8,8 +8,9 @@
     {% set section = get_section(path="projects/_index.md") %}
     {% set project_categories = load_data(path="content/projects/categories.json") %}
 
+    <div id="projects-page" class="projects-page">
     {% for category, tag in project_categories %}
-        <h1>{{ category }}</h1>
+        <h1> <a href=""> {{ category }} </a></h1>
         {% for page in section.pages %}
             {% if page.taxonomies.categories is containing(tag) %}
                 {{ page_macros::project_listing(page=page) }}
@@ -17,13 +18,14 @@
         {% endfor %}
     {% endfor %}
 
-
-    <h1>Other</h1>
+    <h1><a> Other </a></h1>
     {% for page in section.pages %}
     {% if page.taxonomies.categories | length == 0 %}
     {{ page_macros::project_listing(page=page) }}
     {% endif %}
     {% endfor %}
+
+    </div>
 
 </main>
 {% endblock content %}

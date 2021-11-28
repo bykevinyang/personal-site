@@ -128,13 +128,14 @@ a:hover {
 a:hover,
 a:focus {
     // color: $link-hover-color;
-    border-bottom: 1px solid $link-hover-line-color;
+    // border-bottom: 2px solid $link-hover-line-color;
+    text-decoration: underline $link-hover-line-color;
 }
 
 a:active {
     // color: $link-hover-color;
     opacity: 0.9;
-    border-bottom: 1px solid $link-hover-line-color;
+    border-bottom: 1px wavy $link-hover-line-color;
 }
 
 a.active {
@@ -207,9 +208,9 @@ ul ol, ol ol, ul ul {
 }
 
 // Hide horizontal scrollbar
-div {
-    // overflow-x: auto;
-}
+// div {
+//     // overflow-x: auto;
+// }
 
 /* Header */
 
@@ -364,6 +365,11 @@ article header h1 {
 
     a {
         color: $highlight-color!important;
+    }
+    
+    a:hover{
+        border-bottom: 2px solid $link-hover-line-color;
+        text-decoration: underline;   
     } 
     
     li {
@@ -645,11 +651,31 @@ footer {
             }
             a {
                 margin-left: 5%;
+                
             }
         }
     }
 
     .index-listing {
         max-width: none;
+    }
+}
+
+// Projects-Page Styles
+
+.projects-page {
+    .post-list {
+        padding-left: 1rem;
+        
+    }
+
+    // a {
+    //     text-decoration-style: double;
+    // }
+}
+
+.read-more {
+    a:hover{
+        text-decoration: 2px underline  $link-hover-line-color;
     }
 }
