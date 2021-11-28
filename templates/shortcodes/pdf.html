@@ -1,0 +1,19 @@
+{% set container_width = 16 * 42 %}
+
+<div>
+      <object
+        data= "{{ link }} "
+        type="application/pdf"
+        width="{{ container_width }}"
+        height="800"
+      >
+
+        <iframe
+          src="{{ link }}"
+          width="{{ container_width }}"
+          height="800"
+        >
+        <p>This browser does not support PDF 😥</p>
+        </iframe>
+    </object>
+</div>
