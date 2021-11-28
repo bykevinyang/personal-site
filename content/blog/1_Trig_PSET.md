@@ -1,5 +1,5 @@
 +++
-title = "📐Trigonometry PSET (1)"
+title = "📐Trigonometry PSET"
 date = 2021-09-27
 
 [taxonomies]
