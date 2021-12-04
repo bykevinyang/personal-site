@@ -67,34 +67,22 @@ A bit of explaining, arguing, and prototyping was necessary to get them on my si
 
 ## Trigger System
 
-With the winch in place, all that needs to be done now is to 
+With the winch in place, all that needs to be done now is to trigger the smashing head. 
 
-# Takeaways
+One requirement that we decided on early on was that our 2020 FRC robot, Dave, must be able to trigger the Smash-O'-Tine; thus, we had to have some target that a dodge ball could be thrown at. This led me to coming up with a falling trigger arm that would unlatch the brake arm of the winch in the release mechanism. While my idea was most definitely sketchy, it worked great!
 
-All in all, Smash-O'-Tine and Pumpkin Smash was a blast! It was so exciting seeing everyone line up in front of the guillotine and watching the Smashing Head consistently smash, pulverize, and obliterate pumpkins was a joy to behold.  
+# 🎥 Demo
 
-My team and I had to work on an extremely tight timeline, in fact we had just 5 hours of shop time and only 3 weeks to design, prototype, and ship. 
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/ligerbots/51667564197/" title="PXL_20211106_185014184"><img src="https://live.staticflickr.com/31337/51667564197_95dc372285_o.jpg" width="608" height="1080" alt="PXL_20211106_185014184"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-I vividly remember us staying late into the night one meeting finishing up the structure. We were busy cutting wood, screwing things together, and finding a way to transport the massive structure to city hall. 
+## And look at all the 🎃's we smashed!
 
-I also got a crack out of us conducting our maidan tests a mere hour before the event. If hackathons give me an adrenaline rush, building and testing the Smash-O'-Tine was like a natural 5 hour energy!
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/ligerbots/51662435741/" title="DSC_0380"><img src="https://live.staticflickr.com/65535/51662435741_5b7b0bd186_b.jpg" width="683" height="1024" alt="DSC_0380"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-<!-- 
-### Design Principals
+# 📝 Takeaways
 
-Because the crate weighed so much, we wanted to have enough mechanical advantage so that our arms would not get tired after the 4+ hours of lifting. We also made it a requirement that our outreach robot, Dave, could trigger the guillotine by launching a ball. 
+All in all, Smash-O'-Tine was a *smashing* success! It was so exciting seeing everyone line up in front of the guillotine and watching the Smashing Head consistently smash, pulverize, and obliterate pumpkins.  
 
-From the start, I was a big proponent of using a winch. I had watched a video earlier that month that mentioned that one common disadvantage of using winches was that, when the ratcheting arm was released, the winch would being to freely spool because of the attached weight. But I knew this disadvantage was exactly the feature we wanted on the Smash-O'-Tine.
+Smash-O'-Tine was created on an extremely tight timeline, in fact we had just 5 hours of shop time and only 3 weeks to design, prototype, and ship. I still vividly remember us staying late into the night one meeting finishing up the structure. We were busy cutting wood, screwing things together, and finding a way to transport the massive structure to city hall. We were still building stuff two hours before show time!  
 
-And thus I began the long process of explaining to the coaches and captains why a winch would be the best and safest option. -->
-
-<!-- # A Month of Head Smashing
-
-In the beginning of October, I was told by LigerBot higher ups that they needed a contraption that could smash pumpkins for our city's upcoming pumpkin fest. Two years prior, they had brought to the festival a large, 10 foot tall falling arm that had been sparsely put together in 2 days. This year, instead of putting long pieces of 2x4 together and calling it a smasher, they wanted something bolder: a device that could not only puncture holes into pumpkins, but really put the squash into pumpkin--a guillotine.
-
-So I assembled a crew and we began cracking. Having only 4 weeks and just a few hours of shop time, Smash-O'-Tine needed a miracle.
-
-And so began a month of head smashing. -->
-
-
-
+Despite this, everyone persevered and we finished with just a few minutes to spare. I suppose the rest is history.
