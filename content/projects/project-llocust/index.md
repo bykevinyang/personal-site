@@ -99,7 +99,7 @@ Sadly, all these ideas ended with nothing due to complications in acquiring data
 
 All in all, this weekend has had its ups and downs but we managed to overcome our challenges through sheer teamwork and commitment, allowing us to create a powerful data tool that can be used by anyone to predict locust attacks.
 
-## How We Used Space Agency Data in This Project
+# How We Used Space Agency Data in This Project
 
 We requested images from NASA"s Terra and SMAP satellites based off of specific coordinates from the Locust Swarm dataset (supplied by FAO) and then using Raster.io, we saved the binary data received to a TIFF file. We then extracted the values of pixels at the specific coordinates of Locust swarms and non-swarm location as hex value. We then converted those values to RGB for further use during training and testing.
 
