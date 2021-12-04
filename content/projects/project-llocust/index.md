@@ -8,9 +8,9 @@ categories = ["Hackathon", "Software"]
 
 # Background
 
-Project L.L.O.C.U.S.T. is a hackathon project for NASA's 2020 Space Apps Challenge. It won Global Winner as the project with the most potential to improve life on Earth or in the universe. Original submission <a href="https://2020.spaceappschallenge.org/challenges/inform/automated-detection-hazards/teams/project-llocust-1/project">documentation
+Project L.L.O.C.U.S.T. is a hackathon project for NASA's 2020 Space Apps Challenge. It won Global Winner as the project with the most potential to improve life on Earth or in the universe. Original submission <a href="https://2020.spaceappschallenge.org/challenges/inform/automated-detection-hazards/teams/project-llocust-1/project">documentation</a>
 
-# <center><strong>--<a href="https://www.youtube.com/watch?v=RI2gLdX9DAE">Video Demo</a> --</strong></center>
+<iframe width="100%" height="370" src="https://www.youtube.com/embed/RI2gLdX9DAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Summary
 
@@ -18,7 +18,7 @@ Project L.L.O.C.U.S.T. detects and predicts locust' whereabouts as well as forec
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3>How&nbsp;We&nbsp;Addressed This Challenge</h3>
+<h1>How&nbsp;We&nbsp;Addressed This Challenge</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -41,7 +41,7 @@ Besides that, L.L.O.C.U.S.T. also utilizes wind data from NOAA to calculate wher
 
 All in all, Project L.L.O.C.U.S.T. hopes to give insight into locust swarming, giving city officials extra time in planning and preparing for an infestation, strengthening local agriculture and giving farmers the much needed chance in protecting their crops, saving billions in the long run.
 
-## What Inspired your team to choose this challenge?
+# What Inspired your team to choose this challenge?
 
 We felt inspired to contribute to the growing relevance of using Artificial Intelligence in addressing modern world problems.
 
@@ -53,11 +53,11 @@ However, when researching hazards to focus the project about, our team learned t
 
 By some estimates, more than $8.5 billion worth of damages have occurred in Eastern Africa alone, causing 20 million people to go food insecure according to the&nbsp;<a href="https://www.worldbank.org/en/news/factsheet/2020/04/27/the-locust-crisis-the-world-banks-response#:~:text=of%20the%20outbreak%3F-,A.,Africa%20region%2C%20Djibouti%20and%20Yemen.">World Bank</a>&nbsp;and&nbsp;<a href="https://www.nature.com/articles/d41586-020-00692-3">Nature&nbsp;</a>respectively. However, there has been little press coverage on the plaque, sitting under the shadow of COVID-19. What is most alarming is that there has been an&nbsp;<a href="https://www.carbonbrief.org/qa-are-the-2019-20-locust-swarms-linked-to-climate-change">8,000-fold increase</a>&nbsp;in locust breeding this past year, caused by rare conditions that climate change have amplified.</p>
 
-## What was your approach to developing this project?
+# What was your approach to developing this project?
 
 Our approach to the project can be broken down into three steps.
 
-<img src="http://bykevinyang.com/wp-content/uploads/Locust_Schematic_White-1-1002x1024.png" alt="" class="wp-image-2431" width="752" height="768"/>
+<img src="https://sa-2019.s3.amazonaws.com/media/images/97f3c06f-05ff-47ee-8dc9-5d4fa8f9828a.max-1000x1000.png" style="background-color: LightGray; border-radius: 25px" alt="" class="wp-image-2431" width="752" height="768"/>
 
 The first step was to get the data required to train our model. To do this, we created a data pipeline that pulled satellite imagery from NASA’s worldview servers. The specific satellites we pulled from are NASA’s Terra (MODIS instrument, ASTER instrument) and SMAP satellites. From there, we did data preparation on the satellite images, essentially cropping them to the specific coordinates of known swarm locations (the swarm locations were pulled from the&nbsp;<a href="https://locust-hub-hqfao.hub.arcgis.com/">FAO’s Locust Hub</a>). As well, we created a Python script that will create random coordinates in areas that do not have locust infestation to better strengthen the model.
 
@@ -67,7 +67,7 @@ In the third step, we focused our efforts on being able to concisely and clearly
 
 <img src="https://sa-2019.s3.amazonaws.com/media/images/d7cd3c63-710e-477d-a271-342d5da0de99.max-1000x1000.png" alt="" width="980" height="543"/>
 
-## What tools, coding languages, hardware, software did you use to develop your project?
+# What tools, coding languages, hardware, software did you use to develop your project?
 
 We used Python to create a data pipeline, allowing us to collect, manipulate and store satellite imagery using libraries such as Pandas and Raster.io. After having the data in the right format, we then used the Sklearn machine learning library to create a model to predict whether a locust would be present at a given place and time given the features such soil moisture, temperature, humidity, elevation, and vegetation.
 
@@ -75,9 +75,9 @@ Since the downloading and processing of satellite images in TIFF format was comp
 
 The visual frontend part of the website was created using the Leaflet.JS mapping library. The wind simulation was created using a heavily modified version of the leaflet-velocity wind rendering library to project the future movement patterns of locust swarms. Heatmaps were rendered on the map using Leaflet.Heat to show population density and our predictions for where locust outbreaks could occur.<
 
-## What problems and achievements did your team have?
+# What problems and achievements did your team have?
 
-### Problems:
+## Problems:
 
 One of the biggest challenges that our team encountered was obtaining and formatting the data in a way that was usable while identifying the most useful data points in order to keep the size of our data set manageable. In total, we spent 12+ hours debugging and figuring out how to efficiently pull satellite imagery from NASA’s worldview database. Besides that, no one was prepared for how difficult it is to work with satellite imagery. Although some of our team members have worked with creating image-based models, satellite imagery and the many obscure, foreign formats they are in, it was not only excruciatingly hard to work with, but cost the team a lot in time.
 
@@ -87,7 +87,7 @@ We also experienced difficulties with modifying the wind model for our predictiv
 
 We wanted to add a feature to forecast the economic cost a certain locust swarm could cause based on its predicted path. However, we were only able to create mockup data on the map to showcase that feature because we were time constrained.
 
-### Achievements
+## Achievements
 
 Throughout the weekend, our team struggled with getting actual data which we could use to train the model. After many hours of debugging and collaboration between teammates and mentors, we eventually finished the data pipeline that pulls data from NASA’s world view servers and prepares them for use in model training.
 
@@ -99,7 +99,7 @@ Sadly, all these ideas ended with nothing due to complications in acquiring data
 
 All in all, this weekend has had its ups and downs but we managed to overcome our challenges through sheer teamwork and commitment, allowing us to create a powerful data tool that can be used by anyone to predict locust attacks.
 
-### How We Used Space Agency Data in This Project
+## How We Used Space Agency Data in This Project
 
 We requested images from NASA"s Terra and SMAP satellites based off of specific coordinates from the Locust Swarm dataset (supplied by FAO) and then using Raster.io, we saved the binary data received to a TIFF file. We then extracted the values of pixels at the specific coordinates of Locust swarms and non-swarm location as hex value. We then converted those values to RGB for further use during training and testing.
 
