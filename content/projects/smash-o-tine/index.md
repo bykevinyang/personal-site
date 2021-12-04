@@ -81,7 +81,7 @@ One requirement that we decided on early on was that our 2020 FRC robot, Dave, m
 
 # 📝 Takeaways
 
-All in all, Smash-O'-Tine was a *smashing* success! It was so exciting seeing everyone line up in front of the guillotine and watching the Smashing Head consistently smash, pulverize, and obliterate pumpkins.  
+All in all, Smash-O'-Tine was a ***smashing*** success! It was so exciting seeing everyone line up in front of the guillotine and watching the Smashing Head consistently smash, pulverize, and obliterate pumpkins.  
 
 Smash-O'-Tine was created on an extremely tight timeline, in fact we had just 5 hours of shop time and only 3 weeks to design, prototype, and ship. I still vividly remember us staying late into the night one meeting finishing up the structure. We were busy cutting wood, screwing things together, and finding a way to transport the massive structure to city hall. We were still building stuff two hours before show time!  
 
