@@ -23,7 +23,8 @@ $text-color: #f3e7d5;
 
 $a11y-gray: #F26D78;
 
-$link-color: #FF8F40;
+$orange: #fca550;
+$link-color: #64cedf;
 $link-hover-color: #73B8FF;
 $link-hover-line-color: #59C2FF;
 $icon-hover-color: $link-hover-color;
@@ -103,12 +104,13 @@ main {
 /* Headers */
 h1 {
     font-size: 1.35em;
+    color: $orange
 }
 
 h2 {
     font-weight: normal;
     font-size: 1.2em;
-    color: $a11y-gray
+    color: $a11y-gray;
 }
 
 h3 {
@@ -306,7 +308,7 @@ article header h1 {
     line-height: 1.1em;
     margin-bottom: 0.5em;
     font-weight: 600;
-
+    color: $text-color!important;
     a {
         border: none;
         text-decoration: none;

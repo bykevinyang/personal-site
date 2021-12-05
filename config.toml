@@ -65,3 +65,6 @@ email = "ky200617@gmail.com"
 paths = "on"
 taxonomies = "on"
 anchors = "on"
+
+[extra.home]
+post_number = 5

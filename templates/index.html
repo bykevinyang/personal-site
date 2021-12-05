@@ -31,7 +31,7 @@
                 Recent projects
             </h2>
             {% set section = get_section(path="projects/_index.md") %}
-            {% for page in section.pages | slice(end=2) %}
+            {% for page in section.pages | slice(end=config.extra.home.post_number) %}
             {{ page_macros::project_listing(page=page) }}
             {% endfor %}
             <p class="read-more"><a href="projects/">more projects ≫</a></p>
@@ -41,7 +41,7 @@
                 Recent posts
             </h2>
             {% set section = get_section(path="blog/_index.md") %}
-            {% for page in section.pages | slice(end=2) %}
+            {% for page in section.pages | slice(end=config.extra.home.post_number) %}
             {{ page_macros::page_listing(page=page) }}
             {% endfor %}    
             <p class="read-more"><a href="blog/">more blog posts ≫</a></p>
