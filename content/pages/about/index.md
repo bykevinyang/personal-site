@@ -12,7 +12,7 @@ I’m a Boston ☘️ native interested in everything from EE to robotics, to me
 
 <!-- {{ resize_image(path="content/pages/about/about.jpeg", width=100%) }} -->
 
-{{ img(path="content/pages/about/about.jpeg", alt="Me on the Hacker Zephyr", caption="Me on the Hacker Zephyr", width="100%") }}
+<!-- {{ img(path="content/pages/about/about.jpeg", alt="Me on the Hacker Zephyr", caption="Me on the Hacker Zephyr", width="100%") }} -->
 
 I love to tinker with hardware and build stuff with my hands. I program in 🕊️ Swift, 🦀 Rust, and 🐍 Python. I'm also an avid bash-scripter.
 
