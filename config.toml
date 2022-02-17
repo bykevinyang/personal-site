@@ -2,7 +2,7 @@
 # https://www.getzola.org/documentation/getting-started/configuration/
 
 # The URL the site will be built for
-base_url = "https://kevin.dino.icu"
+base_url = "https://keviny.tech"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -17,7 +17,7 @@ highlight_code = true
 build_search_index = false
 
 title = "Kevin Yang"
-description = "Sleeping is underrated"
+description = "Sleeping is underrated 💤"
 generate_feed = false
 
     taxonomies = [
