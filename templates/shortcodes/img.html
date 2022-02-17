@@ -39,6 +39,7 @@
     {% set resize = false %}
     {% set resized_image = img_path %}
 {% endif %}
+
 <figure {% if extended_width_pct %}class="extended-figure"{% endif %}>
     <img src="{% if resize %}{{ resized_image.url }}{% else %}{{ path }}{% endif %}" class="{% if class %}{{class}}{% endif %}" {% if alt %}alt="{{alt}}"{% endif %}/>
     <!-- <img src="{{ path }}" class="{% if class %}{{class}}{% endif %}" {% if alt %}alt="{{alt}}"{% endif %}/> -->
