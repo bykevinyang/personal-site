@@ -1,10 +1,10 @@
 +++
-title = "Blog"
+title = "Journal"
 
 sort_by = "date"
 paginate_by = 10
 render = true
-template = "blog.html"
+template = "journal.html"
 
 insert_anchor_links = "right"
 +++

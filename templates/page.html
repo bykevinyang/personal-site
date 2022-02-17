@@ -8,7 +8,7 @@
     <meta property="og:locale" content="{{ config.extra.ogp.locale }}">
     {% endif %}
     <meta property="og:title" content="{{ page.title }}">
-    {% if page.components is containing("projects") or page.components is containing("blog") %}
+    {% if page.components is containing("projects") or page.components is containing("journal") %}
     <meta property="og:type" content="article">
     <meta property="article:author" content="{{ get_url(path='@/pages/about/index.md') | safe }}">
     <meta property="article:published_time" content="{{ page.date }}">

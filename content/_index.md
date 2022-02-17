@@ -6,7 +6,7 @@ template = "index.html"
 kevin@WOPR:~$ ls
     Home
     Projects 
-    Blog 
+    Journal 
     About 
     hello.txt
 kevin@WOPR:~$ cat hello.txt
