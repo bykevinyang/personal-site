@@ -17,7 +17,7 @@ highlight_code = true
 build_search_index = false
 
 title = "Kevin Yang"
-description = "I put the KY in EleKtrifY"
+description = "Sleeping is underrated"
 generate_feed = false
 
     taxonomies = [

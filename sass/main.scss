@@ -445,6 +445,10 @@ figcaption {
     font-size: 0.75em;
     color: $a11y-gray;
     text-align: center;
+
+    a {
+        color: $a11y-gray;
+    }
 }   
 
 .bordered {
