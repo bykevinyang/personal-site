@@ -13,7 +13,7 @@ featured_image = "about.jpg"
 
 I’m a Boston ☘️ native interested in everything from EE to robotics, to memes, to quantum computing.
 
-{{ img(path= "pages/about/about.jpg", alt="Me on the Hacker Zephyr", caption="Me on the Hacker Zephyr", width="100%") }}
+{{ img(path= "./about.jpg", alt="Me on the Hacker Zephyr", caption="Me on the Hacker Zephyr", width="100%") }}
 
 I love to tinker with hardware and build stuff with my hands. I program in 🕊️ Swift, 🦀 Rust, and 🐍 Python. I'm also an avid bash-scripter.
 
