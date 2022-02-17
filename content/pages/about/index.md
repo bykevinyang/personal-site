@@ -15,7 +15,9 @@ I’m a Boston ☘️ native interested in everything from EE to robotics, to me
 
 {{ img(path= "./about.jpg", alt="Me on the Hacker Zephyr", caption="Me on the Hacker Zephyr", width="100%", link="https://www.youtube.com/watch?v=2BID8_pGuqA") }}
 
-I love to tinker with hardware and build stuff with my hands. I program in 🕊️ Swift, 🦀 Rust, and 🐍 Python. I'm also an avid bash-scripter.
+I love to tinker🧰 with hardware and build🔨 stuff with my hands. 
+
+I program in Python🐍, Swift🕊️, and Rust🦀. I'm also an avid bash-scripter.
 
 Check out my [projects](https://kevin.dino.icu/projects/) page to see what I've been up to!
 
